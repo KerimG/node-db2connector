@@ -1,0 +1,38 @@
+{
+  "name": "node-db2connector",
+  "version": "0.0.1",
+  "description": "Connect to remote DB2 on i (AS/400) for free.",
+  "main": "connectord.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KerimG/node-db2connector.git"
+  },
+  "keywords": [
+    "ibm",
+    "ibm i",
+    "as/400",
+    "db2",
+    "daemon",
+    "db2 on i",
+    "sql",
+    "database"
+  ],
+  "author": "Kerim Güney kerim@gueney.org (https://gueney.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KerimG/node-db2connector/issues"
+  },
+  "homepage": "https://github.com/KerimG/node-db2connector#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "prettier": "^1.11.0"
+  },
+  "dependencies": {
+    "socket.io": "^2.0.4",
+    "idb-connector": "^1.0.5"
+  }
+}
